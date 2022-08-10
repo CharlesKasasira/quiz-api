@@ -1,0 +1,49 @@
+{% extends "admin/base_site.html" %} {% block extrahead %}
+<style>
+  .field-__str__ {
+    font-family: Consolas, monospace;
+  }
+  #header {
+    background-color: #20232a;
+    height: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #branding h1 a:visited {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  .module h2,
+  .module caption,
+  .inline-group h2 {
+    background-color: #1f3040;
+  }
+  div.breadcrumbs {
+    background-color: #fff;
+    color: #20232a;
+  }
+
+  div.breadcrumbs a {
+    color: #20232a;
+  }
+
+  .object-tools a.addlink {
+    background-color: #20232a;
+    border-radius: 0;
+    padding: 8px 25px;
+  }
+  #header {
+    color: #fff;
+  }
+
+  #toolbar form input[type="submit"],
+  #changelist .actions .button, .submit-row input.default {
+    color: #fff;
+    background-color: #20232a;
+    border: none;
+    border-radius: 0;
+  }
+</style>
+{% endblock %}
